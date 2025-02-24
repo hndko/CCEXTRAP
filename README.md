@@ -12,31 +12,19 @@ CCEXTRAP adalah sebuah skrip PHP yang memungkinkan Anda untuk menghasilkan beber
 
 Berikut adalah langkah-langkah untuk menginstal dan menjalankan skrip CCEXTRAP:
 
-1. **Update dan Upgrade Sistem**:
-
-   ```bash
-   apt update && apt upgrade
-   ```
-
-2. **Instal PHP, cURL, dan Git**:
-
-   ```bash
-   apt install php curl git
-   ```
-
-3. **Clone Repository**:
+1. **Clone Repository**:
 
    ```bash
    git clone https://github.com/hndko/CCEXTRAP
    ```
 
-4. **Masuk ke Direktori CCEXTRAP**:
+2. **Masuk ke Direktori CCEXTRAP**:
 
    ```bash
    cd CCEXTRAP
    ```
 
-5. **Jalankan Skrip**:
+3. **Jalankan Skrip**:
    ```bash
    php run.php
    ```
